@@ -1,100 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-
-  
-  <title>HelloWorld | HgsGhost</title>
+<html lang="zh-CN">
+  <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前言因为各种网络环境因素,本小白经过三天鏖战终于成功使用github+hexo搭建个人博客,作为博客的第一篇文章,我就分享一下我的搭建历程,希望对后来人有所帮助. 1 准备工作 系统版本 win10 专业版 github账号 Node.js环境 安装git环境  2 创建github仓库首先,你需要创建一个github仓库,并以固定格式命名(用户名.github.io),仓库创建之后大概半小时内生">
-<meta name="keywords" content="杂谈">
-<meta property="og:type" content="article">
-<meta property="og:title" content="HelloWorld">
-<meta property="og:url" content="http://yoursite.com/2018/04/02/helloWorld/index.html">
-<meta property="og:site_name" content="HgsGhost">
-<meta property="og:description" content="前言因为各种网络环境因素,本小白经过三天鏖战终于成功使用github+hexo搭建个人博客,作为博客的第一篇文章,我就分享一下我的搭建历程,希望对后来人有所帮助. 1 准备工作 系统版本 win10 专业版 github账号 Node.js环境 安装git环境  2 创建github仓库首先,你需要创建一个github仓库,并以固定格式命名(用户名.github.io),仓库创建之后大概半小时内生">
-<meta property="og:locale" content="default">
-<meta property="og:image" content="http://yoursite.com/2018/04/02/helloWorld/1-createBlog-newssh.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/02/helloWorld/1-createBlog-hexoinit.png">
-<meta property="og:updated_time" content="2018-04-09T08:50:49.133Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HelloWorld">
-<meta name="twitter:description" content="前言因为各种网络环境因素,本小白经过三天鏖战终于成功使用github+hexo搭建个人博客,作为博客的第一篇文章,我就分享一下我的搭建历程,希望对后来人有所帮助. 1 准备工作 系统版本 win10 专业版 github账号 Node.js环境 安装git环境  2 创建github仓库首先,你需要创建一个github仓库,并以固定格式命名(用户名.github.io),仓库创建之后大概半小时内生">
-<meta name="twitter:image" content="http://yoursite.com/2018/04/02/helloWorld/1-createBlog-newssh.png">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
   
-    <link rel="alternate" href="/atom.xml" title="HgsGhost" type="application/atom+xml">
+    <link rel="icon" href="">
   
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+    
+  <title>HelloWorld | HgsGhost</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/lib/jquery.fancybox.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">HgsGhost</a>
-      </h1>
+  <header>
+  <div class="header-container">
+    <a class='logo' href="/">
+      <span>HgsGhost</span>
+    </a>
+    <ul class="right-header">
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
+        <li class="nav-item">
+          
+            <a href="/" class="item-link">首页</a>
+          
+        </li>
+      
+        <li class="nav-item">
+          
+            <a href="/about" class="item-link">关于</a>
+          
+        </li>
+      
+        <li class="nav-item">
+          
+            <a href="/archives" class="item-link">归档</a>
+          
+        </li>
+      
+        <li class="nav-item">
+          
+            <a href="/tags" class="item-link">标签</a>
+          
+        </li>
+      
+    </ul>
   </div>
 </header>
-      <div class="outer">
-        <section id="main"><article id="post-helloWorld" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/02/helloWorld/" class="article-date">
-  <time datetime="2018-04-02T03:05:00.000Z" itemprop="datePublished">2018-04-02</time>
-</a>
-    
+
+  <main id='post'>
+  <div class="content">
+    <article>
+        <section class="content markdown-body">
+          <h1>HelloWorld</h1>
+          <div class='post-meta'>
+            <i class="fa fa-calendar" aria-hidden="true"></i> <time>2018年04月02日</time>
+            
+              | <i class="fa fa-folder-open-o" aria-hidden="true"></i> 
   <div class="article-category">
     <a class="article-category-link" href="/categories/杂谈/">杂谈</a>
   </div>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      HelloWorld
-    </h1>
-  
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>因为各种网络环境因素,本小白经过三天鏖战终于成功使用github+hexo搭建个人博客,作为博客的第一篇文章,我就分享一下我的搭建历程,希望对后来人有所帮助.</p>
+
+            
+            
+              | 
+                  <i class="fa fa-tag" aria-hidden="true"></i>
+                
+               
+  <a href="/tags/#杂谈" class='tag'>杂谈</a>
+
+
+            
+          </div>
+          <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>因为各种网络环境因素,本小白经过三天鏖战终于成功使用github+hexo搭建个人博客,作为博客的第一篇文章,我就分享一下我的搭建历程,希望对后来人有所帮助.</p>
+<a id="more"></a>
 <h4 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1 准备工作"></a>1 准备工作</h4><ul>
 <li>系统版本 win10 专业版</li>
 <li>github账号</li>
@@ -102,138 +87,193 @@
 <li>安装git环境</li>
 </ul>
 <h4 id="2-创建github仓库"><a href="#2-创建github仓库" class="headerlink" title="2 创建github仓库"></a>2 创建github仓库</h4><p>首先,你需要创建一个github仓库,并以固定格式命名(<strong>用户名.github.io</strong>),仓库创建之后大概半小时内生效,创建成功后会有一下示例代码,此时你可以直接访问<strong>https://用户名.github.io</strong>查看你的公开仓库</p>
-<h4 id="3-配置ssh-key"><a href="#3-配置ssh-key" class="headerlink" title="3 配置ssh key"></a>3 配置ssh key</h4><p>ssh key主要用来解决本地和服务器的链接问题.<br><code>$ cd ~/.ssh #检查本机已存在的ssh秘钥</code><br>如果提示:No such file or directory 说明你是第一次使用git.<br><code>ssh-keygen -t rsa -C &quot;邮件地址&quot;</code><br>然后连续三次回车后,会在用户目录生成一个文件,打开用户目录,找到<code>.ssh\id_rsa.pub</code>,用记事本打开并复制内容,之后进入github主页setting的<code>SSH and GPG keys</code><br><img src="/2018/04/02/helloWorld/1-createBlog-newssh.png" alt="SSH and GPG keys"><br>点击new SSH key后 title随便取,将文件的内容粘贴到key中保存</p>
-<h5 id="3-1-测试是否成功"><a href="#3-1-测试是否成功" class="headerlink" title="3.1 测试是否成功"></a>3.1 测试是否成功</h5><p><code>$ ssh -T git@github.com # 注意邮箱地址不用改</code><br>如果提示<code>Are you sure you want to continue connecting (yes/no)?</code>,输入yes,如果看到<br><code>Hi hgsghost! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code><br>说明SSH配置成功,之后还要配置:<br><code>$ git config --global user.name &quot;hgsghost&quot;// 你的github用户名，非昵称</code><br><code>$ git config --global user.email  &quot;xxx@gmail.com&quot;// 填写你的github注册邮箱</code></p>
-<h4 id="4-hexo搭建博客"><a href="#4-hexo搭建博客" class="headerlink" title="4 hexo搭建博客"></a>4 hexo搭建博客</h4><h5 id="4-1-hexo简介"><a href="#4-1-hexo简介" class="headerlink" title="4.1 hexo简介"></a>4.1 hexo简介</h5><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="https://baike.baidu.com/item/markdown/3245829?fr=aladdin" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<h4 id="3-配置ssh-key"><a href="#3-配置ssh-key" class="headerlink" title="3 配置ssh key"></a>3 配置ssh key</h4><p>ssh key主要用来解决本地和服务器的链接问题.<br>    $ cd ~/.ssh #检查本机已存在的ssh秘钥<br>如果提示:No such file or directory 说明你是第一次使用git.<br>    ssh-keygen -t rsa -C “邮件地址”<br>然后连续三次回车后,会在用户目录生成一个文件,打开用户目录,找到<code>.ssh\id_rsa.pub</code>,用记事本打开并复制内容,之后进入github主页setting的<code>SSH and GPG keys</code><br><img src="/2018/04/02/helloWorld/1-createBlog-newssh.png" alt="SSH and GPG keys"><br>点击new SSH key后 title随便取,将文件的内容粘贴到key中保存</p>
+<h5 id="3-1-测试是否成功"><a href="#3-1-测试是否成功" class="headerlink" title="3.1 测试是否成功"></a>3.1 测试是否成功</h5><pre><code>$ ssh -T git@github.com # 注意邮箱地址不用改
+</code></pre><p>如果提示<code>Are you sure you want to continue connecting (yes/no)?</code>,输入yes,如果看到</p>
+<pre><code>Hi hgsghost! You&apos;ve successfully authenticated, but GitHub does not provide shell access.
+</code></pre><p>说明SSH配置成功,之后还要配置:</p>
+<pre><code>$ git config --global user.name &quot;hgsghost&quot;// 你的github用户名，非昵称
+$ git config --global user.email  &quot;xxx@gmail.com&quot;// 填写你的github注册邮箱
+</code></pre><h4 id="4-hexo搭建博客"><a href="#4-hexo搭建博客" class="headerlink" title="4 hexo搭建博客"></a>4 hexo搭建博客</h4><h5 id="4-1-hexo简介"><a href="#4-1-hexo简介" class="headerlink" title="4.1 hexo简介"></a>4.1 hexo简介</h5><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="https://baike.baidu.com/item/markdown/3245829?fr=aladdin" target="_blank" rel="noopener">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 <h5 id="4-2-博客原理"><a href="#4-2-博客原理" class="headerlink" title="4.2 博客原理"></a>4.2 博客原理</h5><p>由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文件都放在本地，每次写完文章后调用写好的命令来批量完成相关页面的生成，然后再将有改动的页面提交到github。</p>
 <h5 id="4-3-hexo安装前提"><a href="#4-3-hexo安装前提" class="headerlink" title="4.3 hexo安装前提"></a>4.3 hexo安装前提</h5><p>机器需要有node.js的环境,如果未安装node.js,可以参考 <a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">node.js安装教程</a>安装.安装后再gitbash中运行<code>node --version</code> 可能会出现 <code>ReferenceError: version is not defined</code><br>并不会影响hexo正常使用</p>
-<h5 id="4-4-hexo安装"><a href="#4-4-hexo安装" class="headerlink" title="4.4 hexo安装"></a>4.4 hexo安装</h5><p><code>$ npm install -g hexo</code></p>
-<h5 id="4-5-hexo初始化"><a href="#4-5-hexo初始化" class="headerlink" title="4.5 hexo初始化"></a>4.5 hexo初始化</h5><p>在电脑的某个路径下新建hexo文件夹,这个文件夹是将来你放你的博客静态代码的地方,最好是比较好找的路径.<br><code>$ cd /d/gitblog/hexo</code><br><code>hexo init</code><br>hexo会自动下载一些文件到这个目录，包括node_modules，目录结构如下图:<br><img src="/2018/04/02/helloWorld/1-createBlog-hexoinit.png" alt="hexo目录"></p>
-<p><code>$ hexo g # 生成</code><br><code>$ hexo s # 启动服务</code></p>
-<p>执行以上命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的.</p>
+<h5 id="4-4-hexo安装"><a href="#4-4-hexo安装" class="headerlink" title="4.4 hexo安装"></a>4.4 hexo安装</h5><pre><code>$ npm install -g hexo
+</code></pre><h5 id="4-5-hexo初始化"><a href="#4-5-hexo初始化" class="headerlink" title="4.5 hexo初始化"></a>4.5 hexo初始化</h5><p>在电脑的某个路径下新建hexo文件夹,这个文件夹是将来你放你的博客静态代码的地方,最好是比较好找的路径.</p>
+<pre><code>$ cd /d/gitblog/hexo
+hexo init
+</code></pre><p>hexo会自动下载一些文件到这个目录，包括node_modules，目录结构如下图:<br><img src="/2018/04/02/helloWorld/1-createBlog-hexoinit.png" alt="hexo目录"></p>
+<pre><code>$ hexo g # 生成
+$ hexo s # 启动服务
+</code></pre><p>执行以上命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的.</p>
 <p><code>hexo s</code>是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到内容，很多人会碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为端口占用的缘故，因为4000这个端口太常见了，解决端口冲突问题请参考这篇文章：</p>
 <p><a href="http://blog.liuxianan.com/windows-port-bind.html" target="_blank" rel="noopener">http://blog.liuxianan.com/windows-port-bind.html</a></p>
+<p>第一次初始化的时候hexo已经帮我们写了一篇名为 Hello World 的文章，默认的主题比较丑，打开时就是这个样子：<br><img src="/2018/04/02/helloWorld/1-createBlog-hexoTheme.png" alt="hexo目录"></p>
+<h5 id="4-6-修改主题"><a href="#4-6-修改主题" class="headerlink" title="4.6 修改主题"></a>4.6 修改主题</h5><p>如果觉得默认主题不好看,我们可以去<a href="https://hexo.io/themes/" target="_blank" rel="noopener">官方主题</a>找一个好看的替换掉.</p>
+<p><img src="/2018/04/02/helloWorld/1-createBlog-themeaath.png" alt="hexo目录"></p>
+<p>例如我喜欢Aath这个主题,点击进入博客寻找这个主题的github地址,一般在关于中可以找到(也可能在别的地方)</p>
+<p><img src="/2018/04/02/helloWorld/1-createBlog-themegithub.png" alt="hexo目录"></p>
+<p>进入github地址,找到相应的主题进入</p>
+<p><img src="/2018/04/02/helloWorld/1-createBlog-githubrepositories.png" alt="hexo目录"></p>
+<p>使用git下载相应的主题</p>
+<p><img src="/2018/04/02/helloWorld/1-createBlog-githubcopyurl.png" alt="hexo目录"></p>
+<pre><code>$ cd /d/gitblog/hexo
+$ git clone https://github.com/lewis-geek/hexo-theme-Aath.git theme/aath
+</code></pre><p>修改hexo目录下的 <code>_config.yml</code> 文件中的 <code>theme: landscape</code> 改为 <code>theme: aath</code></p>
+<pre><code>注意: 主题theme文件夹下也有`_config.yml`文件,我们要修改的是hexo中的`_config.yml`文件,修改的属性:后边有个空格.
+</code></pre><p>如果出现一些莫名其妙的问题，可以先执行hexo clean来清理一下public的内容，然后再来重新生成和发布。</p>
+<h5 id="4-7-上传之前"><a href="#4-7-上传之前" class="headerlink" title="4.7 上传之前"></a>4.7 上传之前</h5><p>在上传代码到github之前，一定要记得先把你以前所有代码下载下来（虽然github有版本管理，但备份一下总是好的），因为从hexo提交代码时会把你以前的所有代码都删掉。</p>
+<h5 id="4-8-上传"><a href="#4-8-上传" class="headerlink" title="4.8 上传"></a>4.8 上传</h5><p>如果你一切都配置好了，发布上传很容易，一句<code>hexo d</code>就搞定，当然关键还是你要把所有东西配置好。</p>
+<p>首先，<code>ssh key</code>肯定要配置好。</p>
+<p>其次，配置<code>_config.yml</code>中有关deploy的部分：</p>
+<p>正确写法：</p>
+<pre><code>deploy:
+type: git
+repository: git@github.com:hgsghost/hgsghost.github.io.git
+branch: master
+</code></pre><p>错误写法：</p>
+<pre><code>deploy:
+type: github
+repository: https://github.com/hgsghost/hgsghost.github.io
+branch: master
+</code></pre><p>此时直接执行hexo d的话一般会报如下错误：</p>
+<pre><code>Deployer not found: github 或者 Deployer not found: git
+</code></pre><p>原因是还需要安装一个插件：</p>
+<pre><code>npm install hexo-deployer-git --save
+</code></pre><p>其它命令不确定，部署这个命令一定要用git bash，否则会提示<code>Permission denied (publickey).</code></p>
+<p>打开你的git bash，输入<code>hexo d</code>就会将本次有改动的代码全部提交，没有改动的不会：</p>
+<p><img src="/2018/04/02/helloWorld/1-createBlog-hexodeploy.png" alt="hexo目录"></p>
+<h5 id="4-9-保留CNAME-README等文件"><a href="#4-9-保留CNAME-README等文件" class="headerlink" title="4.9 保留CNAME,README等文件"></a>4.9 保留CNAME,README等文件</h5><p>提交之后网页上一看，发现以前其它代码都没了，此时不要慌，一些非md文件可以把他们放到source文件夹下，这里的所有文件都会原样复制（除了md文件）到public目录的.</p>
+<p>由于hexo默认会把所有md文件都转换成html，包括README.md，所有需要每次生成之后、上传之前，手动将README.md复制到public目录，并删除README.html。</p>
+<h5 id="4-10-常用hexo命令"><a href="#4-10-常用hexo命令" class="headerlink" title="4.10 常用hexo命令"></a>4.10 常用hexo命令</h5><pre><code>hexo new &quot;postName&quot; #新建文章
+hexo new page &quot;pageName&quot; #新建页面
+hexo generate #生成静态页面至public目录
+hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）
+hexo deploy #部署到GitHub
+hexo help  # 查看帮助
+hexo version  #查看Hexo的版本
+</code></pre><h5 id="4-11-写博客"><a href="#4-11-写博客" class="headerlink" title="4.11 写博客"></a>4.11 写博客</h5><p>git bash 进入hexo目录执行<code>hexo new &#39;blog名称&#39;</code><br>hexo 会自动在_post目录生成相应的md文件(当然,你也可以自己创建md文件,没有任何区别)<br>我们只需要打开md文件就可以开始写博客了,md使用markdown语法,不懂得同学可以参考<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">markdown语法</a><br>md文件完整格式如下:</p>
+<pre><code>---
+title: postName #文章页面上的显示名称，一般是中文
+date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
+categories: 默认分类 #分类
+tags: [tag1,tag2,tag3] #文章标签，可空，多标签请用格式，注意:后面有个空格
+description: 附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面
+---
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/02/helloWorld/" data-id="cjfs02dsf0003mksbn6mtenpr" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/杂谈/">杂谈</a></li></ul>
+以下是正文
+</code></pre><h5 id="4-12-md文件编辑工具"><a href="#4-12-md文件编辑工具" class="headerlink" title="4.12 md文件编辑工具"></a>4.12 md文件编辑工具</h5><p>个人使用markdownpad编辑md文件,感觉还不错.</p>
+<h5 id="4-13-博文只显示部分内容"><a href="#4-13-博文只显示部分内容" class="headerlink" title="4.13 博文只显示部分内容"></a>4.13 博文只显示部分内容</h5><p>默认情况下，生成的博文目录会显示全部的文章内容，如何设置文章摘要的长度呢？</p>
+<p>答案是在合适的位置加上<code>&lt;!--more--&gt;</code>即可，例如：</p>
+<pre><code># 前言
 
-    </footer>
-  </div>
-  
+使用github pages服务搭建博客的好处有：
+
+1. 全是静态文件，访问速度快；
+2. 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；
+3. 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；
+
+&lt;!--more--&gt;
+
+4. 数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；
+5. 博客内容可以轻松打包、转移、发布到其它平台；
+6. 等等；
+</code></pre><h4 id="5-最终效果"><a href="#5-最终效果" class="headerlink" title="5 最终效果"></a>5 最终效果</h4><p>我的博客:<a href="https://hgsghost.github.io/" target="_blank" rel="noopener">https://hgsghost.github.io/</a></p>
+<h1 id="最后-感谢耐心看完这篇文章的各位童鞋"><a href="#最后-感谢耐心看完这篇文章的各位童鞋" class="headerlink" title="最后,感谢耐心看完这篇文章的各位童鞋!"></a>最后,感谢耐心看完这篇文章的各位童鞋!</h1><h4 id="6-参考"><a href="#6-参考" class="headerlink" title="6 参考"></a>6 参考</h4><p><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html</a></p>
+<h4 id="7-我的github"><a href="#7-我的github" class="headerlink" title="7 我的github"></a>7 我的github</h4><p>地址:<a href="https://github.com/hgsghost" target="_blank" rel="noopener">https://github.com/hgsghost</a></p>
+<h1 id="感兴趣的童鞋大家一起学习"><a href="#感兴趣的童鞋大家一起学习" class="headerlink" title="感兴趣的童鞋大家一起学习!"></a>感兴趣的童鞋大家一起学习!</h1><p><img src="/2018/04/02/helloWorld/thanks.png" alt="感谢"></p>
+<p>copyright ©2018-2020 hgsghost</p>
+<p>【转载文章务必保留出处和署名，谢谢！】</p>
+
+        </section>
+    </article>
     
-<nav id="article-nav">
-  
-  
-    <a href="/2013/12/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-</section>
         
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/杂谈/">杂谈</a></li></ul>
-    </div>
   </div>
-
-
-  
+  <aside>
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂谈/">杂谈</a></li></ul>
+    <div class="toc-container">
+        <h1>目录</h1>
+        <div class="content">
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-准备工作"><span class="toc-number">1.1.</span> <span class="toc-text">1 准备工作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-创建github仓库"><span class="toc-number">1.2.</span> <span class="toc-text">2 创建github仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-配置ssh-key"><span class="toc-number">1.3.</span> <span class="toc-text">3 配置ssh key</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-1-测试是否成功"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 测试是否成功</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-hexo搭建博客"><span class="toc-number">1.4.</span> <span class="toc-text">4 hexo搭建博客</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#4-1-hexo简介"><span class="toc-number">1.4.1.</span> <span class="toc-text">4.1 hexo简介</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-2-博客原理"><span class="toc-number">1.4.2.</span> <span class="toc-text">4.2 博客原理</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-3-hexo安装前提"><span class="toc-number">1.4.3.</span> <span class="toc-text">4.3 hexo安装前提</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-4-hexo安装"><span class="toc-number">1.4.4.</span> <span class="toc-text">4.4 hexo安装</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-5-hexo初始化"><span class="toc-number">1.4.5.</span> <span class="toc-text">4.5 hexo初始化</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-6-修改主题"><span class="toc-number">1.4.6.</span> <span class="toc-text">4.6 修改主题</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-7-上传之前"><span class="toc-number">1.4.7.</span> <span class="toc-text">4.7 上传之前</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-8-上传"><span class="toc-number">1.4.8.</span> <span class="toc-text">4.8 上传</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-9-保留CNAME-README等文件"><span class="toc-number">1.4.9.</span> <span class="toc-text">4.9 保留CNAME,README等文件</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-10-常用hexo命令"><span class="toc-number">1.4.10.</span> <span class="toc-text">4.10 常用hexo命令</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-11-写博客"><span class="toc-number">1.4.11.</span> <span class="toc-text">4.11 写博客</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-12-md文件编辑工具"><span class="toc-number">1.4.12.</span> <span class="toc-text">4.12 md文件编辑工具</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-13-博文只显示部分内容"><span class="toc-number">1.4.13.</span> <span class="toc-text">4.13 博文只显示部分内容</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-最终效果"><span class="toc-number">1.5.</span> <span class="toc-text">5 最终效果</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#最后-感谢耐心看完这篇文章的各位童鞋"><span class="toc-number"></span> <span class="toc-text">最后,感谢耐心看完这篇文章的各位童鞋!</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#6-参考"><span class="toc-number">0.1.</span> <span class="toc-text">6 参考</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-我的github"><span class="toc-number">0.2.</span> <span class="toc-text">7 我的github</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#感兴趣的童鞋大家一起学习"><span class="toc-number"></span> <span class="toc-text">感兴趣的童鞋大家一起学习!</span></a>
+        </div>
     </div>
-  </div>
-
-
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/杂谈/" style="font-size: 10px;">杂谈</a>
+  </aside>
+</main>
+
+
+
+  <footer>
+  <div class="copyright">
+    <div>
+      &copy; 2018 | Powered by <a href="https://hexo.io" target="_blank">Hexo</a>&nbsp
     </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/04/02/helloWorld/">HelloWorld</a>
-          </li>
-        
-          <li>
-            <a href="/2013/12/02/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2018 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    <div>
+      Theme by <a href="https://github.com/lewis-geek/hexo-theme-Aath" target="_blank">Aath</a>
     </div>
   </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
+
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="/lib/in-view.min.js"></script>
+<script src="/lib/lodash.min.js"></script>
+<script>
+  var isDown = true
+  var oldY = 0
+  inView.offset(50)
+
+  document.body.addEventListener('touchstart', function(){});
   
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+  window.addEventListener('scroll', _.throttle(e => {
+    var currentY = window.scrollY
+    if((oldY - currentY) < 0) {
+      isDown = true
+    } else {
+      isDown = false
+    }
+    oldY = currentY
+  }, 250))
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  $("article img").each(function() {
+      var strA = "<a data-fancybox='gallery' href='" + this.src + "'></a>";
+      $(this).wrapAll(strA);
+  });
+
+  $('.toc-link').each(function() {
+      var href = $(this).attr("href");
+      
+      inView(href).on('exit', () => {
+        if (isDown) {
+          handleActive(href)
+        }
+      })
+
+      inView(href).on('enter', () => {
+        if (!isDown) {
+          handleActive(href)
+        }
+      })
+
+      this.onclick = function(e) {
+        var pos = $(href).offset().top - 10;
+        $("html,body").animate({scrollTop: pos}, 300);
+        setTimeout(() => {
+          handleActive(href)
+        }, 350)
+        return false
+      }
+  })
+
+  function handleActive(href) {
+    document.querySelectorAll('.toc-link').forEach(elm => {
+      elm.classList.remove('active')
+    })
+    document.querySelector(".toc [href='"+ href +"']").classList.add('active')
+  }
+</script>
+<script src="/lib/jquery.fancybox.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
-
-  </div>
 </body>
 </html>
